@@ -1,10 +1,15 @@
 import './App.css';
-import Sample from './components/sample';
+import Header from './shared/Header';
+import Footer from './shared/Footer'
+import AnimatedRoutes from './components/AnimatedRoutes';
 
 function App() {
+
   return (
-    <div className="App">
-      <Sample/>
+    <div>
+      <Header/>
+      <AnimatedRoutes/>
+      <Footer/>
     </div>
   );
 }

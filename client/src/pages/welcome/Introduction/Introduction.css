@@ -1,0 +1,13 @@
+#welcome-main-container{
+    padding:3rem 0rem;
+    z-index:1;
+}
+#welcome-caption{
+    font-family: 'Fjalla One', sans-serif;
+}
+#welcome-title{
+    font-family: 'Exo 2', sans-serif;
+}
+.welcome-link{
+    font-family: 'Signika', sans-serif;
+}

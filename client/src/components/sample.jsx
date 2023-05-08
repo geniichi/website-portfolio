@@ -18,9 +18,9 @@ function Sample() {
     <div>
       <h1>Achievements</h1>
         {data.map((item, index) => (
-          <div>
-            <h3 key={index}>{item.title}</h3>
-            <p key={index}>{item.content}</p>
+          <div key={index}>
+            <h3>{item.title}</h3>
+            <p>{item.content}</p>
           </div>
         ))}
     </div>
